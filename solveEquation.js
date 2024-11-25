@@ -9,9 +9,8 @@ function solveEquation(a, b, c){
   if(D == 0){
     x[0] = -b / (2*a);
   }
-  console.log(D);
-  console.log(x)
+  return x;
 }
 
-solveEquation(1, 2, 1)
+
 
